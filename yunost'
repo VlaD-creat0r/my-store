@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Юность - Магазин Продуктов</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="Логотип Юность">
+            <h1>Юность</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Главная</a></li>
+                <li><a href="#about">О нас</a></li>
+                <li><a href="#products">Товары</a></li>
+                <li><a href="#contact">Контакты</a></li>
+                <li><a href="#discounts">Акции и скидки</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="home">
+            <h2>Добро пожаловать в Юность</h2>
+            <p>Магазин качественных продуктов: колбасные изделия, рыба, мясо.</p>
+        </section>
+        
+        <section id="about">
+            <h2>О нас</h2>
+            <p>Магазин "Юность" предлагает свежие и качественные продукты. Мы стремимся предоставить лучшее обслуживание и широкий ассортимент товаров.</p>
+        </section>
+        
+        <section id="products">
+            <h2>Товары</h2>
+            <ul>
+                <li>Колбасные изделия</li>
+                <li>Рыба</li>
+                <li>Мясо</li>
+            </ul>
+        </section>
+        
+        <section id="contact">
+            <h2>Контакты</h2>
+            <p>Телефон: +7 (123) 456-78-90</p>
+            <p>Адрес: г. Москва, ул. Примерная, д. 10</p>
+        </section>
+
+        <section id="discounts">
+            <h2>Акции и скидки</h2>
+            <p>Следите за нашими акциями и скидками на сайте и в магазине!</p>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2024 Магазин Юность</p>
+    </footer>
+</body>
+</html>
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: red;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header .logo img {
+    height: 50px;
+    margin-right: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 1rem;
+    background-color: white;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+footer {
+    background-color: red;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
